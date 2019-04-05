@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Edge Icons</title>
   <style>
-  @font-face {
-    font-family: edge-icons;
-    src: local("Helvetica Neue Bold"), url(edge-icons-Regular.ttf), url(https://github.com/twitter/twitter.github.io/raw/master/fonts/edge-icons-Regular.ttf);
-    font-weight: normal;
-  }
-  pre {
-    font-family: edge-icons;
-  }
+    @font-face {
+      font-family: edge-icons;
+      src: local("Helvetica Neue Bold"), url(edge-icons-Regular.ttf), url(https://github.com/twitter/twitter.github.io/raw/master/fonts/edge-icons-Regular.ttf);
+      font-weight: normal;
+    }
+
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    #content {
+      max-width: 800px;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+    }
+
+    pre {
+      font-family: edge-icons;
+      font-size: 1.5rem;
+    }
   </style>
 </head>
+
 <body>
-  <p>
-  Download the edge-icons font by Twitter: <a href="https://github.com/twitter/twitter.github.io/blob/master/fonts/edge-icons-Regular.ttf">edge-icons-Regular.ttf</a>
-  </p>
-  <p>
-    Copy and paste an appropriate icon:
-    <pre>
+  <div id="content">
+    <h1>Edge-Icons</h1>
+    <p>
+      1. Download the edge-icons font by Twitter: <a
+        href="https://github.com/twitter/twitter.github.io/blob/master/fonts/edge-icons-Regular.ttf">edge-icons-Regular.ttf</a>
+    </p>
+    <p>
+      2. Copy and paste an appropriate icon:
+      <div class="center">
+        <pre>
             
             
             
@@ -36,8 +59,10 @@
             
             
             
-
-    </pre>
-  </p>
+</pre>
+      </div>
+    </p>
+  </div>
 </body>
+
 </html>
